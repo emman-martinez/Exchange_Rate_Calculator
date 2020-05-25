@@ -16,6 +16,12 @@
     }
 }
 
+@mixin exRateCalculator {
+    @media (max-width: #{600px}) {
+        @content;
+    }
+}
+
 @mixin boton() {
     cursor: pointer;
     background-color: #3498DB;
